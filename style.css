@@ -1,5 +1,18 @@
-body{
-    background-color: #070224;
+body {   
+    color: #070224;
+    /* Sayfanın tamamını kaplamasını sağlar */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            
+            /* İçeriği yatayda ortalar */
+            justify-content: center;
+            
+            /* İçeriği dikeyde ortalar */
+            align-items: center;
+            
+            /* İsteğe bağlı: Yazı tipi seçimi */
+            font-family: Arial, sans-serif;
 }
 h2
 {

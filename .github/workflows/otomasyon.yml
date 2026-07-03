@@ -20,5 +20,5 @@ jobs:
       - name: Siber Müfettişi (HTMLHint) İndir ve Kur
         run: npm install -g htmlhint
 
-      - name: Kodları Acımasızca Denetle!
-        run: htmlhint "**/*.html"
+      - name: Kodları Denetle (Gereksiz dosyaları yok sayarak)
+        run: htmlhint "**/*.html" --ignore "node_modules/**"
