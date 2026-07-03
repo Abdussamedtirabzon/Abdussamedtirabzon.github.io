@@ -1,4 +1,6 @@
-body {   /* Sayfanın tamamını kaplamasını sağlar */
+body {   
+    color: #070224;
+    /* Sayfanın tamamını kaplamasını sağlar */
             height: 100vh;
             margin: 0;
             display: flex;
