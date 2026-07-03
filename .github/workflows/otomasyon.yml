@@ -1,4 +1,4 @@
-name: Ilk Devops Robotum
+name: Kalite Müfettişi
 
 on:
   push:
@@ -6,12 +6,19 @@ on:
       - main
 
 jobs:
-  sistem-kontrol:
+  kalite-kontrol:
     runs-on: ubuntu-latest
     steps:
       - name: Kodu Karargahtan Çek
         uses: actions/checkout@v4
-      - name: Terminale Mesaj Yazdır
-        run: echo "Yeni bir kod eklendi veya değiştirildi Haberin olsun"
-      - name: Proje Dosyalarını Listele
-        run: ls -la
+
+      - name: Çalışma Ortamını (Node.js) Hazırla
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Siber Müfettişi (HTMLHint) İndir ve Kur
+        run: npm install -g htmlhint
+
+      - name: Kodları Acımasızca Denetle!
+        run: htmlhint "**/*.html"
