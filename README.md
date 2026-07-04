@@ -1,6 +1,7 @@
 # Muhammed Abdussamed Tırabzon - Kişisel Web Sitesi
 
-Bu proje; HTML5 ve CSS3 kullanılarak geliştirilmiş, modern DevOps ve CloudOps pratikleriyle güçlendirilmiş profesyonel bir kişisel web sitesi projesidir. Proje bünyesinde otomatik kod kalitesi denetimi ve bulut dağıtımına hazır konteyner altyapısı barındırmaktadır.
+Bu proje; HTML5 ve CSS3 kullanılarak geliştirilmiş, modern DevOps ve CloudOps pratikleriyle güçlendirilmiş  bir kişisel web sitesi projesidir. Proje bünyesinde otomatik kod kalitesi denetimi ve bulut dağıtımına hazır konteyner altyapısı barındırmaktadır.
+https://abdussamedtirabzon.github.io
 
 ## 🚀 Öne Çıkan Özellikler
 
